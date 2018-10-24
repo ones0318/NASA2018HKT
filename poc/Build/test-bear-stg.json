@@ -1,0 +1,12 @@
+{
+"companyName": "DefaultCompany",
+"productName": "poc",
+"dataUrl": "test-bear-stg.data.unityweb",
+"wasmCodeUrl": "test-bear-stg.wasm.code.unityweb",
+"wasmFrameworkUrl": "test-bear-stg.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
