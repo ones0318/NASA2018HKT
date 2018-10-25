@@ -28,13 +28,13 @@ Player acts a lonely, hungry, and elderly polar bear.  The sky is same as its ch
 ---
 
 ## Real World Scene Selection
-To decide which region we want to present in the game, we chooice a sea bay of Canada.
+We choose a bay located in North-West Canada as the region that we present in the game.
 https://polarbearsinternational.org/climate-change/status-endangered-polar-bears/
-We can found that polar bear population declining in 3 area of Arctic Cicle, including Baffin Bay, Kane Basin and S.Beaufurt Sea.
+We learned that the polar bear population is declining in 3 areas of Arctic, including Baffin Bay, Kane Basin and S.Beaufort Sea.
 
-We randomly picked some area on the map and dump EODIS World View's history images, and found the location is perfect to present climate, ice-free & land ratio's change.
+We picked some area on the map randomly and dumped historical images in EOSDIS Worldview.  We also noticed the location is perfect to present the changement of climate, ice-free & land ratio.
 
-The location we decide to present in game is in the square of (69.6939, -122.5727) and (72.4091, -128.5392)
+The region, which we present in the game is in the square of (69.6939, -122.5727) and (72.4091, -128.5392).
 
 ![](https://)
 
