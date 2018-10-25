@@ -53,22 +53,19 @@ The generated terrain package from RAW image is located in the folder:
     assets/terrains/arctic/year_map.raw
     
 ## Polar bear distribution
-For polar bear distribution, we can reference following information to estimate how much polar bear will appear in the area.
+We have referred to the following information to estimate how many polar bears distribute in the area.
 
 * Polarbears International https://polarbearsinternational.org/
 * IUCN PBSG (PolarBear Specialist Group) http://pbsg.npolar.no/
 
-The reference data of polar bear's population could be found in following page
+The reference data of polar bear population could be found in the following page
 http://pbsg.npolar.no/en/status/populations/southern-beaufort-sea.html
 
-Per our design, the region we selected is in Southern Beaufort Sea area, 
-where the population includes 1,526 polar bears in 2016, but 907 in 2010, and removal 83 per year between 2010 to 2014.
+According to our design, the region we selected is in the Southern Beaufort Sea area, where the population includes 1,526 polar bears in 2016, but 907 in 2010, and removal 83 per year between 2010 to 2014.
 
-
-For overall polar bear status of different area in Arctic are present in following page: 
+The overall polar bear status of different areas in Arctic is presented in following page:
 PBSG - Polar Bear Population Map : http://pbsg.npolar.no/en/status/population-map.html
 Map of Life - Species Distribution Map : https://mol.org//species/Ursus_maritimus
-
 
 ## Other Species Distribution
 The polar cycle's ecology system can be found in this website. 
