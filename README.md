@@ -38,50 +38,34 @@ The region, which we present in the game is in the square of (69.6939, -122.5727
 
 ![](https://)
 
-
-
-
-## landscape model
+## Terrain Model
 pick 3~4 years to demostrate here
 
-To perform different age of polar bears and environment change, we selectd aerial photo map of year 2000, 2006, 2010, 2016 as different game level's terrain and landscape.
+To perform the polar bear in different age and environment changement, we select maps in the year 2007, 2010, 2016 as different game level's terrains and landscapes.  Then, we have to transform the DEM (GeoTiff) or image into a terrain model for the 3D program, for example: Unity.
 
+You can refer this repository for DEM (GeoTiff) file transforming into STL file:
 
-To generate the landscape model for 3D program (for example: Unity)
-We have to transform the DEM or image into support format. 
+You can also refer to the design in this repo and implement by our team for image transforming into terrain object:
 
-For DEM (GeoTiff) file transform into STL file, you can reference this repo:
+The tool helps you transform an image (jpg/png) into a special grayscale image.  Then, you can use GIMP export it to a RAW image.  Finally, you can import the RAW image into Unity as a terrain object.
 
-
-For areial photo image transform into gaming terrain object, you can reference this repo design and implement by our team：
-
-this could help you transform image file (jpg/png) into gradient raw file and import to Unity terrain object.
-
-The generated terrain package file is in the folder: 
+The generated terrain package from RAW image is located in the folder:
     assets/terrains/arctic/year_map.raw
     
-
-
-
-
-
 ## Polar bear distribution
-For polar bear distribution, we can reference following information to estimate how much polar bear will appear in the area.
+We have referred to the following information to estimate how many polar bears distribute in the area.
 
 * Polarbears International https://polarbearsinternational.org/
 * IUCN PBSG (PolarBear Specialist Group) http://pbsg.npolar.no/
 
-The reference data of polar bear's population could be found in following page
+The reference data of polar bear population could be found in the following page
 http://pbsg.npolar.no/en/status/populations/southern-beaufort-sea.html
 
-Per our design, the region we selected is in Southern Beaufort Sea area, 
-where the population includes 1,526 polar bears in 2016, but 907 in 2010, and removal 83 per year between 2010 to 2014.
+According to our design, the region we selected is in the Southern Beaufort Sea area, where the population includes 1,526 polar bears in 2016, but 907 in 2010, and removal 83 per year between 2010 to 2014.
 
-
-For overall polar bear status of different area in Arctic are present in following page: 
+The overall polar bear status of different areas in Arctic is presented in following page:
 PBSG - Polar Bear Population Map : http://pbsg.npolar.no/en/status/population-map.html
 Map of Life - Species Distribution Map : https://mol.org//species/Ursus_maritimus
-
 
 ## Other Species Distribution
 The polar cycle's ecology system can be found in this website. 
