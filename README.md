@@ -65,7 +65,7 @@ According to our design, the region we selected is in the Southern Beaufort Sea 
 
 The overall polar bear status of different areas in Arctic is presented in following page:
 PBSG - Polar Bear Population Map : http://pbsg.npolar.no/en/status/population-map.html
-Map of Life - Species Distribution Map : https://mol.org//species/Ursus_maritimus
+Map of Life - Species Distribution Map : https://mol.org/species/Ursus_maritimus
 
 ## Other Species Distribution
 The polar cycle's ecology system can be found in this website. 
