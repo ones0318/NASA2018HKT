@@ -1,25 +1,91 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<html lang="en">
+
+<head>
+    <title>Light Wonder!</title>
     <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | poc</title>
-    <link rel="shortcut icon" href="poc/TemplateData/favicon.ico">
-    <link rel="stylesheet" href="poc/TemplateData/style.css">
-    <script src="poc/TemplateData/UnityProgress.js"></script>  
-    <script src="poc/Build/UnityLoader.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800'
+        rel='stylesheet' type='text/css'>
+    <style>
+        body {
+            font-family: 'Montserrat', serif;
+        }
+        section {
+            max-width: 57%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .wrapper {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            color: #FFF;
+        }
+
+        .video-wrap {
+            widows: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            position: absolute;
+            overflow: hidden;
+        }
+
+        .video-wrap video {
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        .overlay {
+            background: #2D3E50;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            z-index: 1;
+            position: absolute;
+            opacity: 0.8;
+        }
+
+        .landing-text {
+            z-index: 2;
+        }
+
+        .landing-text h1 {
+            font-weight: 600;
+            font-size: 380%;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="wrapper">
+        <div class="video-wrap">
+            <video src="https://r7---sn-ipoxu-u2xz.googlevideo.com/videoplayback?mv=m&mt=1540645030&ms=au%2Crdu&id=o-ANGalwe_08OY-rbtX8B_dVEiwPSnBd7d_CueRcRu-A-E&ei=LmHUW7-qNYiL4gLXpbqwAQ&pl=21&source=youtube&dur=46.672&ip=1.162.184.139&key=yt6&mn=sn-ipoxu-u2xz%2Csn-un57en7s&signature=5A62CD2965BAE74F08CA72370DAB38CAA9AE55E3.977E57FD5CCE5B41C8209ED0D8756DD555D83727&mm=31%2C29&txp=2211222&initcwndbps=793750&sparams=clen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Crequiressl%2Csource%2Cexpire&lmt=1540624780068864&c=MWEB&gir=yes&fvip=5&expire=1540666767&mime=video%2Fmp4&requiressl=yes&clen=2960519&ipbits=0&ratebypass=yes&itag=18&cpn=8pfa9xdvhtrFHV-3&cver=2.20181025&ptk=youtube_none&pltype=contentugc"
+                autoplay loop muted />
+        </div>
+        <div class="overlay"></div>
+        <div class="landing-text">
+            <h1>Go! Polar Bear!</h1>
+            <h2>Light Wonder © 2018 NASA Space Apps</h2>
+            <a class="btn" href="poc/index.html">Play now!</a>
+        </div>
+    </section>
+
+    <img id="welcome" src="images/cover1.png" width="100%" />
+
+    <footer>Light Wonder © 2018 NASA Space Apps</footer>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "poc/Build/test-bear-stg.json", {onProgress: UnityProgress});
+        $('#welcome').click(function () {
+            window.location.href = "poc/index.html"
+        })
     </script>
-  </head>
-  <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">poc</div>
-      </div>
-    </div>
-  </body>
+</body>
+
 </html>
